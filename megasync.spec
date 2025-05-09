@@ -18,6 +18,7 @@ BuildRequires:  pkgconfig(openssl)
 BuildRequires:  cmake(Qt5LinguistTools)
 #BuildRequires:  libqt5-qtbase-devel
 #BuildRequires:  libqt5-qtdeclarative-devel
+BuildRequires:  cmake(Qt5Core)
 BuildRequires:  cmake(Qt5Svg)
 BuildRequires:  cmake(Qt5X11Extras)
 BuildRequires:  pkgconfig(libsodium)
