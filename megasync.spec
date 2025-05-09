@@ -38,7 +38,7 @@ BuildRequires:  pkgconfig(zlib)
 
 %prep
 %autosetup -n MEGAsync-5.11.1.0_Linux -p1
-mv src/MEGASync/mega/cmake/modules/packages/* src/MEGASync/mega/cmake/modules/
+#mv src/MEGASync/mega/cmake/modules/packages/* src/MEGASync/mega/cmake/modules/
 
 %build
 %cmake -DBUILD_SHARED_LIBS:BOOL=OFF -DBUILD_STATIC_LIBS:BOOL=ON \
